@@ -24,4 +24,10 @@ pop install numpy
 
 # Use
 
-Edit `BSMVisBackend.py` to navigate to your BSM log file. By default the Python processing file looks for a csv log file, `realtimeBSMs.csv`.
+Edit `BSMVisBackend.py` to navigate to your BSM log file. By default the Python processing file looks for a csv log file, `realtimeBSMs.csv`. 
+
+To run the python init method and launch the flask server run 
+
+```
+>>> mapping.bat
+```
