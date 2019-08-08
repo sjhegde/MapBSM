@@ -1,0 +1,1 @@
+DSRC_MessageID,Vehicle ID,BSM_tmp_ID, transtime, X, Y, Speed, Instant_Acceleration, Heading, brakeStatus, brakePressure, hardBraking,  transTo, transmission_received_time,mappedTime
