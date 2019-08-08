@@ -48,61 +48,6 @@
     }.bind(this));
   });
 
-
-    //
-    // L.Marker.mergeOptions({
-    //   icon: L.icon({ iconUrl: 'car.png', iconSize: [25, 25],})
-    // });
-    //
-    // var map = L.map('map'), realtime = L.realtime(
-    //   {url: 'http://localhost:5000/geojson', crossOrigin: true, type: 'json'},{
-    //     interval: 600,
-    //     getFeatureId: function(feature) {
-    //       return feature.properties.BSM_tmp_ID;
-    //     }
-    //   }
-    // ).addTo(map);
-    //
-    // L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
-    //
-    //
-    // realtime.on('update', function(e) {
-    //
-    //   map.fitBounds(realtime.getBounds(), {});
-    //
-    //   Object.keys(e.update).forEach(function(id) {
-    //     var feature = e.update[id];
-    //     console.log(id)
-    //     this.getLayer(id).setRotationAngle(feature.properties[" Heading"]);
-    //     this.getLayer(id).bindPopup('Speed: '+ String(feature.properties[" Speed"]) + "<br>" + 'BSM Temp ID: '+ String(feature.properties.BSM_tmp_ID));
-    //     // this.getLayer(id).openPopup();
-    //   }.bind(this));
-    // });
-
-    // var myIcon = L.icon({
-    //   iconUrl: 'car.png',
-    //   iconSize: [25, 25],
-    //
-    // });
-
-
-    // pointToLayer: function (feature, latlng) {
-    //   var marker = L.marker(
-    //     latlng,
-    //     {icon: myIcon, rotationAngle: feature.properties[" Heading"]}
-    //   );
-    //   marker.bindPopup('Speed: '+ String(feature.properties[" Speed"]) + "<br>" + 'BSM Temp ID: '+ String(feature.properties.BSM_tmp_ID));
-    //   return marker;
-    // },
-    // updateFeature: function(feature, oldLayer, newLayer) {
-    //   // oldLayer.setIcon(myIcon)
-    //   newLayer.setRotationAngle(feature.properties[" Heading"]);
-    //   newLayer.bindPopup('Speed: '+ String(feature.properties[" Speed"]) + "<br>" + 'BSM Temp ID: '+ String(feature.properties.BSM_tmp_ID), {closeOnClick:false, autoClose: false});
-    //   newLayer.openPopup()
-    //   return newLayer
-      // return L.Realtime.prototype.options.updateFeature(feature, oldLayer, newLayer);
-    // },
-
     </script>
 </body>
 </html>
